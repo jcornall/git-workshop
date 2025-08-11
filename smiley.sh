@@ -31,9 +31,11 @@ trap "tput cnorm; tput sgr0; clear; exit" SIGINT
 # Hide cursor
 tput civis
 
+clear 
+
 while true; do
     for i in "${!frames[@]}"; do
-        frame="${frames[$i]}"
+	frame="${frames[$i]}"
         color="${colors[$((i % ${#colors[@]}))]}"
 
         # Get terminal size
