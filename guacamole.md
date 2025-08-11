@@ -72,3 +72,9 @@ I want to kill this dog
                                         `/          """
 
 
+     / \__      🥑 Guac Bowl 🥑
+    (    @\___
+     /         O   *nom nom*
+    /   (_____/
+   /_____/   U
+
