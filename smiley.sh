@@ -33,7 +33,8 @@ tput civis
 
 while true; do
     for i in "${!frames[@]}"; do
-        frame="${frames[$i]}"
+        clear
+	frame="${frames[$i]}"
         color="${colors[$((i % ${#colors[@]}))]}"
 
         # Get terminal size
