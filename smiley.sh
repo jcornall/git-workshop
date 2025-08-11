@@ -7,6 +7,8 @@ frames=(
 "  😉  "
 "  😄  "
 "  🐱‍👤 "
+" SAUL NEEDS A PINT ASAP!! "
+
 )
 
 while true; do
