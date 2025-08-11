@@ -31,9 +31,10 @@ trap "tput cnorm; tput sgr0; clear; exit" SIGINT
 # Hide cursor
 tput civis
 
+clear 
+
 while true; do
     for i in "${!frames[@]}"; do
-        clear
 	frame="${frames[$i]}"
         color="${colors[$((i % ${#colors[@]}))]}"
 
